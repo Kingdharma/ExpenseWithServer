@@ -107,7 +107,7 @@ fun SearchScreenContent(modifier: Modifier= Modifier,uiState: SearchUiState,quer
                                 }, error = {
                                     Box(modifier= Modifier.fillMaxWidth().height(400.dp),
                                         contentAlignment = Alignment.Center){
-                                        Text(text ="Something went Wrong")
+                                        Text(text ="oops Something went Wrong")
                                     }
                                 })
                             }
